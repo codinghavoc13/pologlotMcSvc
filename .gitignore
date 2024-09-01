@@ -1,4 +1,4 @@
 polyglot_dotnet/polyglot_dotnet/appsettings.json
 .vscode
 node_modules
-Migrations
+polyglot_dotnet/polyglot_dotnet/Migrations
