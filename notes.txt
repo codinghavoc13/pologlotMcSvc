@@ -1,0 +1,27 @@
+General Idea:
+- One of each
+    - GoLang REST API
+    - Java Spring REST API
+    - C# REST API
+    - DjangoRestFramework REST API - https://www.django-rest-framework.org/
+    - Node.js
+- One of each, both with the same rough display layout
+    - Angular frontend
+    - React frontend
+    - A form to get/submit a couple pieces of information
+    - 
+- A couple different buttons to send data through different paths
+    - Example 1: Round Robin
+        - An example would be for the frontend to send the data to one of the BE1 with a GET method sending a starter message
+        - BE1 adds some random piece of information, sends to BE2
+        - BE2 adds something else, sends to BE3
+        - BE3 adds something else, sends to BE4
+        - BE4 adds something else, sends back to BE1 which returns to FE
+    - Example 2:
+        - FE sends a request to a BE
+        - The BE builds what it can
+        - If no other information is required, returns to FE
+        - If further information is needed, requests are sent to BUS which returns ONs to add to message in the calling BE
+- Need to keep watching the Node.js/Microservice course on Udemy
+- Need to check if a service can be both a producer and a consumer in Kafka
+- 
